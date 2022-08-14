@@ -33,10 +33,6 @@ function play() {
   }
 }
 
-btn.addEventListener('click', function () {
-  play();
- })
- 
  document.addEventListener('keyup', e => {
    if (e.keyCode === 13) {
      play();
